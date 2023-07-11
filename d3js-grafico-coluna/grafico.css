@@ -1,0 +1,45 @@
+#grafico {
+    border: thin solid black;
+    width: 600px;
+    height: 400px;
+}
+
+.barra {
+    stroke: black; /*stroke = linha*/
+}
+
+.rotulo {
+    text-anchor: middle; /*elemento usado apemas para svg, não html*/
+}
+
+#eixoX text {
+    font-size: 120%;
+    text-anchor: end;
+    transform: translate(-8px, 2px) rotate(-45deg);
+}
+
+#eixoY text {
+    font-size: 120%;
+}
+
+#grade path {
+    display: none;
+}
+
+#grade line {
+    stroke: #AAA;
+    stroke-dasharray: 2,2;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#grafico {
+    
+}
